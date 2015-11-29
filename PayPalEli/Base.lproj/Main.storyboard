@@ -15,7 +15,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HJA-Vu-bC3">
                                 <rect key="frame" x="131" y="132" width="61" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pagar"/>
+                                <state key="normal" title="Pagar">
+                                    <color key="titleShadowColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="btnPagar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y31-ty-qmB"/>
                                 </connections>
@@ -26,7 +28,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="107" y="110"/>
+            <point key="canvasLocation" x="148" y="99"/>
         </scene>
     </scenes>
 </document>
